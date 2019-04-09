@@ -12,4 +12,9 @@ public class ExampleController {
     public String hello() {
         return "hello world Alibaba Cloud Toolkit";
     }
+
+    @GetMapping("/jenkins")
+    public String jenkins() {
+        return "hello jenkins";
+    }
 }
