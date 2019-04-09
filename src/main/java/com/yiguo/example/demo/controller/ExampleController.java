@@ -17,4 +17,9 @@ public class ExampleController {
     public String jenkins() {
         return "hello jenkins";
     }
+
+    @GetMapping("/docker")
+    public String docker() {
+        return "hello docker";
+    }
 }
