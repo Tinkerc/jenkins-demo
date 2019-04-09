@@ -22,4 +22,9 @@ public class ExampleController {
     public String docker() {
         return "hello docker";
     }
+
+    @GetMapping("/webhook")
+    public String webhook() {
+        return "hello webhook+jenkins!";
+    }
 }
