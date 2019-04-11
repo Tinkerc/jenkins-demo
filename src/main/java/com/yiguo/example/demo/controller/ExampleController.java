@@ -10,21 +10,21 @@ public class ExampleController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello world Alibaba Cloud Toolkit";
+        return "hello world 1111";
     }
 
-    @GetMapping("/jenkins")
-    public String jenkins() {
-        return "hello jenkins";
+    @GetMapping("/hello2")
+    public String hello2() {
+        return "hello world 22222";
     }
 
-    @GetMapping("/docker")
-    public String docker() {
-        return "hello docker";
+    @GetMapping("/hello3")
+    public String hello3() {
+        return "hello world 3333";
     }
 
-    @GetMapping("/webhook")
-    public String webhook() {
-        return "hello webhook+jenkins!";
+    @GetMapping("/hello4")
+    public String hello4() {
+        return "hello world 44444";
     }
 }
